@@ -30,6 +30,7 @@ public class DepartmentController {
 		System.out.println("Saving Department");
 		System.out.println(department.getDeptName());
 		System.out.println(department.getDeptLocation());
+		System.out.println(department.getDeptId());
 		return departmentService.saveDepartment(department);
 	}
 	
